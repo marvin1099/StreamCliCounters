@@ -6,6 +6,7 @@ https://codeberg.org/marvin1099/StreamCliCounters#Explanation
 https://codeberg.org/marvin1099/StreamCliCounters#Usage  
 https://codeberg.org/marvin1099/StreamCliCounters#Exaple  
 https://codeberg.org/marvin1099/StreamCliCounters#DefaultCounter  
+https://codeberg.org/marvin1099/StreamCliCounters#ManualEdits  
 
 # StreamCliCounters Backup
 https://github.com/marvin1099/StreamCliCounters  
@@ -15,6 +16,7 @@ https://github.com/marvin1099/StreamCliCounters#Explanation
 https://github.com/marvin1099/StreamCliCounters#Usage  
 https://github.com/marvin1099/StreamCliCounters#Exaple  
 https://github.com/marvin1099/StreamCliCounters#DefaultCounter  
+https://github.com/marvin1099/StreamCliCounters#ManualEdits 
 
 # Description
 A rework of one of my very old projects.  
