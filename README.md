@@ -37,56 +37,62 @@ Next you can open a terminal in the script folder and run:
     AdCliCounter.py -d
     AdCliCounter.py -c MyKills -p "Kills: "  
 To make a Kills counter with some shortcuts for adding and subtracting.  
-The ***-d*** enables shortcut creation on counter creation.  
+The ***-d*** will create a shortcut for the selected counter.  
 Now there is also going to be a ***MyKills.txt*** in The script folder to show in your stream.  
 Now just use the shortcuts to add subtract or reset the counter.  
-There are some more thinks to to for that ceck out the usage bellow.  
+There are some more things to to for that ceck out the usage bellow.  
 It can also be shown in the script by running:
 
     AdCliCounter.py -h
 
 # Usage
-    usage: AdCliCounter.py [-h] [-j JSON] [-d] [-f DEFAULTPREFIX] [-x DEFAULTSUFFIX] [-n] [-c CREATE]
-    [-r REMOVE] [-t SELECT] [-e SET] [-a ADD] [-m] [-p PREFIX] [-s SUFFIX] [-l]
+    usage: AdCliCounter.py [-h] [-j JSON] [-o] [-c CREATE] [-t SELECT] [-i] [-r] [-n RENAME] [-x DEFAULTPREFIX]
+    [-p PREFIX] [-y DEFAULTSUFFIX] [-s SUFFIX] [-u DEFAULTVALUE] [-v VALUE] [-e SET]
+    [-a ADD] [-w] [-d] [-l]
 
     A counter manager
 
     options:
     -h, --help            show this help message and exit
-    -j JSON, --json JSON  where is your conter config (default ./counters.json)
-    -d, --defaultshortcut
-    make shortcuts when creating counters, add twice to disable
-    -f DEFAULTPREFIX, --defaultprefix DEFAULTPREFIX
-    set default prefix for when creating counters
-    -x DEFAULTSUFFIX, --defaultsuffix DEFAULTSUFFIX
-    set sufix for for when creating counters
-    -n, --nodefcounter    allow the counter with the name "default" to be deleted, add twice to revert
-    (warning counter is used for fallback)
+    -j JSON, --json JSON  where is your conter config (default 'counters.json')
+    -o, --selectcreation  auto select counter on creation, add twice to disable
     -c CREATE, --create CREATE
     create a new counter with a custom name
-    -r REMOVE, --remove REMOVE
-    remove a counter with a custom name
     -t SELECT, --select SELECT
     select a counter to use
-    -e SET, --set SET     set the counter to any number
-    -a ADD, --add ADD     change the counter by +/-x
-    -m, --makeshortcut    make shortcuts for selected counter, add twice to disable
+    -i, --pointer         print the selected counter
+    -r, --remove          remove the selected counter
+    -n RENAME, --rename RENAME
+    rename the selected counter
+    -x DEFAULTPREFIX, --defaultprefix DEFAULTPREFIX
+    set default prefix for when creating counters
     -p PREFIX, --prefix PREFIX
-    set prefix for selected counter
+    set prefix for created or selected counter
+    -y DEFAULTSUFFIX, --defaultsuffix DEFAULTSUFFIX
+    set sufix for for when creating counters
     -s SUFFIX, --suffix SUFFIX
-    set sufix for selected counter
+    set sufix for created or selected counter
+    -u DEFAULTVALUE, --defaultvalue DEFAULTVALUE
+    set default value for when creating counters
+    -v VALUE, --value VALUE
+    set value for when creating counters
+    -e SET, --set SET     set the selected counter to any number
+    -a ADD, --add ADD     change the counter by +/-x
+    -w, --defaultshortcut
+    create shortcuts on counter creation, add twice to disable
+    -d, --createshortcut  make shortcuts for selected counter, add twice to delete shortcuts
     -l, --list            list available counters
 
 # Exaple
-Keep in mind the script allways has to run in the script folder  
-as a working directory to generate the files in the script folder.  
-Lets make up some senarios.  
+Keep in mind the script should be run in the desired counter folder  
+as a working directory to generate the files in the desired folder. 
+Lets make up a senario.  
 You want to count the coins of a game manualy.    
-There are coins that give 5 points, give 10 coins and one that takes 3 coins.  
+There are coins that give 5 points, give 10 points and one that takes 3 points.  
 To make a counter for this open a terminal and run:  
 
-    AdCliCounter.py -d -c Coins -p "My Collected Coin Count: "
-At this point thanks to the -d shortcuts will be created.
+    AdCliCounter.py -d -c Coins -p "My Collected Coin Points: "
+If you want to always enable shortcuts use "-w".
 But now we have to modify the shortcuts to do what we want.  
 So rightclick the add shorcut (vbs file) and open it in you favorite editor (eg. Notepad).  
 Now modify "Exec=" on linux or WShell.Run "" on windows to say 5 not 1.  
@@ -97,28 +103,12 @@ Change the -1 to -3.
 Now you are done you can use the Coins.txt in your stream.
 
 # DefaultCounter
-Keep in mind the script allways has to run in the script folder  
-as a working directory to generate the files in the script folder.  
-The default counter is used as a fallback.
-You can deleted it, if you realy dont want it,
-but its not recomended.
-To do that open a terminal and run:
+The default counter was removed i version 0.2.
+It wasn't that usefull and can be recreated by running:
 
-    AdCliCounter.py -n -r default
-If you want to use it insted you can set it to 0. 
-That can be done by opening a terminal and running:  
-
-    AdCliCounter.py -t default -e 0
-That will make your ***default.txt*** appear.  
-if you want to generate the shortcuts for default,  
-you need to do the following.  
-First make shure to backup your default data if you want to keep it.  
-Then open a terminal and run: 
-
-    AdCliCounter.py -d -n -r default
-    AdCliCounter.py -c default
+    AdCliCounter.py -c default -p "Default: "
 
 # ManualEdits
 You can manualy edit the counter.json file,  
 but be carefull to not mess up the format.  
-The json in set up strait forward so it sold be posible to edit by hand.
+The json in set up straight forward so it sold be posible to edit by hand.
