@@ -4,7 +4,7 @@ https://codeberg.org/marvin1099/StreamCliCounters#Description
 https://codeberg.org/marvin1099/StreamCliCounters#Install  
 https://codeberg.org/marvin1099/StreamCliCounters#Explanation  
 https://codeberg.org/marvin1099/StreamCliCounters#Usage  
-https://codeberg.org/marvin1099/StreamCliCounters#Exaple  
+https://codeberg.org/marvin1099/StreamCliCounters#Example  
 https://codeberg.org/marvin1099/StreamCliCounters#DefaultCounter  
 https://codeberg.org/marvin1099/StreamCliCounters#ManualEdits  
 
@@ -14,7 +14,7 @@ https://github.com/marvin1099/StreamCliCounters#Description
 https://github.com/marvin1099/StreamCliCounters#Install  
 https://github.com/marvin1099/StreamCliCounters#Explanation  
 https://github.com/marvin1099/StreamCliCounters#Usage  
-https://github.com/marvin1099/StreamCliCounters#Exaple  
+https://github.com/marvin1099/StreamCliCounters#Example  
 https://github.com/marvin1099/StreamCliCounters#DefaultCounter  
 https://github.com/marvin1099/StreamCliCounters#ManualEdits 
 
@@ -85,7 +85,7 @@ It can also be shown in the script by running:
     -d, --createshortcut  make shortcuts for selected counter, add twice to delete shortcuts
     -l, --list            list available counters
 
-# Exaple
+# Example
 Keep in mind the script should be run in the desired counter folder  
 as a working directory to generate the files in the desired folder. 
 Lets make up a senario.  
