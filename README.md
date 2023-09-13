@@ -24,7 +24,7 @@ Its a shortuct/comandline controlled counter system.
 You can add as many counters as you like,  
 for the most interesting numbers, like kills or deaths.  
 Keep in mind, to make this as good as can be,  
-i took inspiration from a AI suggestion.  
+i took inspiration from an AI suggestion.  
 
 # Install
 get it here:  
