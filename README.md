@@ -2,7 +2,7 @@
 Main Repo: https://codeberg.org/marvin1099/StreamCliCounters  
 Backup Repo: https://github.com/marvin1099/StreamCliCounters
 
-# Table-of-contents
+# Table of contents
 - [Description](#Description) 
 - [Install](#Install)
 - [Explanation](#Explanation)  
