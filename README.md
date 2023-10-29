@@ -3,13 +3,13 @@ Main Repo: https://codeberg.org/marvin1099/StreamCliCounters
 Backup Repo: https://github.com/marvin1099/StreamCliCounters
 
 # Table-of-contents
-[Description](#Description)  
-[Install](#Install)  
-[Explanation](#Explanation)  
-[Usage](#Usage)  
-[Example](#Example)  
-[DefaultCounte](#DefaultCounter)  
-[ManualEdits](#ManualEdits)  
+- [Description](#Description) 
+- [Install](#Install)
+- [Explanation](#Explanation)  
+- [Usage](#Usage)  
+- [Example](#Example)  
+- [DefaultCounter](#DefaultCounter) 
+- [ManualEdits](#ManualEdits) 
 
 # Description
 A rework of one of my very old projects.  
@@ -20,8 +20,9 @@ Keep in mind, to make this as good as can be,
 i took inspiration from an AI suggestion.  
 
 # Install
-get it here:  
-[Releases](/marvin1099/StreamCliCounters/releases)   
+get it on one of these:  
+[Codeberg Releases](https://codeberg.org/marvin1099/StreamCliCounters/releases)   
+[Github Releases](https://github.com/marvin1099/StreamCliCounters/releases)   
 
 # Explanation
 First get python and the script from above.  
