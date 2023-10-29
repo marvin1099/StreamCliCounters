@@ -1,22 +1,15 @@
-# StreamCliCounters Main
-https://codeberg.org/marvin1099/StreamCliCounters  
-https://codeberg.org/marvin1099/StreamCliCounters#Description  
-https://codeberg.org/marvin1099/StreamCliCounters#Install  
-https://codeberg.org/marvin1099/StreamCliCounters#Explanation  
-https://codeberg.org/marvin1099/StreamCliCounters#Usage  
-https://codeberg.org/marvin1099/StreamCliCounters#Example  
-https://codeberg.org/marvin1099/StreamCliCounters#DefaultCounter  
-https://codeberg.org/marvin1099/StreamCliCounters#ManualEdits  
+# StreamCliCounters
+Main Repo: https://codeberg.org/marvin1099/StreamCliCounters  
+Backup Repo: https://github.com/marvin1099/StreamCliCounters
 
-# StreamCliCounters Backup
-https://github.com/marvin1099/StreamCliCounters  
-https://github.com/marvin1099/StreamCliCounters#Description  
-https://github.com/marvin1099/StreamCliCounters#Install  
-https://github.com/marvin1099/StreamCliCounters#Explanation  
-https://github.com/marvin1099/StreamCliCounters#Usage  
-https://github.com/marvin1099/StreamCliCounters#Example  
-https://github.com/marvin1099/StreamCliCounters#DefaultCounter  
-https://github.com/marvin1099/StreamCliCounters#ManualEdits 
+# Table-of-contents
+[Description](#Description)  
+[Install](#Install)  
+[Explanation](#Explanation)  
+[Usage](#Usage)  
+[Example](#Example)  
+[DefaultCounte](#DefaultCounter)  
+[ManualEdits](#ManualEdits)  
 
 # Description
 A rework of one of my very old projects.  
