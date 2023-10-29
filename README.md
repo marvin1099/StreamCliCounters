@@ -21,9 +21,7 @@ i took inspiration from an AI suggestion.
 
 # Install
 get it here:  
-https://codeberg.org/marvin1099/StreamCliCounters/releases  
-or here:  
-https://github.com/marvin1099/StreamCliCounters/releases  
+[Releases](/marvin1099/StreamCliCounters/releases)   
 
 # Explanation
 First get python and the script from above.  
